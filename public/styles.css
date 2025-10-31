@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1.5fr 1fr 8fr;
+  place-items: center;
+  background-color: #44443b;
+  color: #ec7a1c;
+  font-family: 'Inter', sans-serif;
+}
