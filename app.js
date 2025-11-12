@@ -18,6 +18,10 @@ app.get('/', (req, res) => {
   res.sendFile(path.resolve('public/index.html'));
 });
 
+app.get('/projects', (req, res) => {
+  res.sendFile(path.resolve('public/projects.html'));
+});
+
 app.listen(port, () => {
   console.log(`Listening on port ${port}`);
 });
