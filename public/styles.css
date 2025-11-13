@@ -10,3 +10,18 @@ body {
   color: #ec7a1c;
   font-family: 'Inter', sans-serif;
 }
+
+div {
+  color: #90462c;
+  background-color: #9B806E;
+}
+
+div > a {
+  color:#90462c; 
+}
+
+
+a:link,
+a:visited {
+  color: #ec7a1c
+}
