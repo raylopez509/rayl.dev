@@ -25,3 +25,8 @@ a:link,
 a:visited {
   color: #ec7a1c
 }
+
+#link {
+  height: 50px;
+  width: auto;
+}
