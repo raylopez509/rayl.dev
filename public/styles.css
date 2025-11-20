@@ -11,21 +11,22 @@ body {
   font-family: 'Inter', sans-serif;
 }
 
-div {
+.card {
+  padding: 1rem;
   color: #90462c;
-  background-color: #9B806E;
+  background-color: #9b806e;
 }
 
 div > a {
-  color:#90462c; 
+  color: #90462c;
 }
-
 
 a:link,
 a:visited {
-  color: #ec7a1c
+  color: #ec7a1c;
 }
 
+#github,
 #link {
   height: 50px;
   width: auto;
