@@ -15,6 +15,11 @@ body {
   padding: 1rem;
   color: #90462c;
   background-color: #9b806e;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 div > a {
@@ -28,6 +33,21 @@ a:visited {
 
 #github,
 #link {
-  height: 50px;
+  height: 40px;
   width: auto;
+}
+
+#project1, #project2 {
+  height: 250px;
+  width: auto;
+}
+
+.card-links {
+  margin: 1rem;
+}
+
+#card-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
