@@ -24,7 +24,7 @@ app.get('/projects', (req, res) => {
 });
 
 app.get('/resume', (req, res) => {
-  res.sendFile(path.resolve('public/projects.html'));
+  res.sendFile(path.resolve('public/resume.html'));
 });
 
 app.listen(port, () => {
