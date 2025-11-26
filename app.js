@@ -13,12 +13,17 @@ const port = 3000;
 // });
 
 app.use(express.static('public'));
+app.use(express.static('images'));
 
 app.get('/', (req, res) => {
   res.sendFile(path.resolve('public/index.html'));
 });
 
 app.get('/projects', (req, res) => {
+  res.sendFile(path.resolve('public/projects.html'));
+});
+
+app.get('/resume', (req, res) => {
   res.sendFile(path.resolve('public/projects.html'));
 });
 
