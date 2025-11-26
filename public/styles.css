@@ -8,6 +8,7 @@ body {
   background-color: #44443b;
   color: #ec7a1c;
   font-family: 'Inter', sans-serif;
+  font-size: larger;
 }
 
 .card {
@@ -31,7 +32,8 @@ a:visited {
 }
 
 #github,
-#link {
+#link,
+#linkedin {
   height: 40px;
   width: auto;
 }
@@ -66,6 +68,19 @@ a:visited {
   .resume-info {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    justify-items: center;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .resume-info > section {
+    margin: 0 4rem;
+  }
+
+  #resume-summary {
+    font-size: large;
+  }
+
+  .resume-info > section > h2 {
+    text-align: center;
   }
 }
