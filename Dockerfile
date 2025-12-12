@@ -6,4 +6,4 @@ COPY app.js /app
 COPY /public /app/public
 COPY /images /app/images
 CMD ["node", "app.js"]
-EXPOSE 3000
+EXPOSE 3001
